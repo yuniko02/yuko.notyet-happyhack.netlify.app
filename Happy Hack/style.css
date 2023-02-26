@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-swicher{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/background1.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+header img{
+    width: 900px;
+    margin:186px auto;
+}
+
+header p{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+@font-face{
+    font-family: Futura-Bol;
+    src: url(fonts/Futura-Bol.ttf) format(truetype);
+}
+.heading{
+    text-align: center;
+    color: #3d5cbd;
+    font-size: 53px;
+    padding: 20px;
+    font-weight: bold;
+    font-family: Futura-Bol;
+}
+
+.introduction-box{
+    display: block;
+}
+
+.introduction-button{
+    color: #fff;
+    font-size: 20px;
+    border-radius: 13px;
+    padding: 10px 45px;
+    line-height: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 165px;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", sans-serif;
+}
+
+.introduction-button-001{
+    background-color: #3e5dda;
+}
+
+.introduction-button-002{
+    background-color: #FFBF04;
+    margin-left: 165px;
+}
+
+.introduction-box p{
+    width: 400px;
+    height: 230px;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", sans-serif;
+}
+
+.introduction-register-001{
+    margin:0 50px;
+    margin-right: 0px;
+
+}
+
+.introduction-register-002{
+    margin:0 50px;
+}
+
+.introduction-image{
+    width: 500px;
+    height: 330px;
+}
+
+.introduction-image-001{
+    margin-right: 40px;
+    margin-left: -50px;
+}
+
+.introduction-image-002{
+    margin-left: 40px;
+    margin-right: -50px;
+}
+
+.introduction-001{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    margin-top: 20px;
+}
+
+.introduction-002{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 76px;
+}
+
+.introduction-register{
+    display: block;
+
+}
+
+#particles-js{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.wrap{
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+canvas{
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:-1;
+
+}
+
+.courses{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.courses-contents{
+    position: absolute;
+}
+
+.courses-boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.courses-box{
+    width: 240px;
+    height: 340px;
+    background-color: #fff;
+    display: block;
+    justify-content: center;
+    border-radius: 3%;
+    position: relative;
+    margin:0 10px;
+}
+
+.courses-box img{
+    margin-left: 85px;
+    margin-top: 54px;
+}
+
+.courses-box h3{
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.courses-box a{
+    font-size: 13px;
+    color: #fff;
+    background-color: #f16529;
+    width: 150px;
+    display: inline-block;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", sans-serif;
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#courses-box-button{
+    position: absolute;
+    top: 255px;
+    left: 35px;
+}
+
+#courses-box-h3{
+    position: absolute;
+    top: 188px;
+    left: 40px;
+}
+
+.courses-box-newline{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#images{
+    overflow: hidden;
+    width: 260px;
+}
+
+.viewport{
+    overflow: visible!important;
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.slider li{
+    list-style: none;
+    width: 1040px;
+    float: left;
+}

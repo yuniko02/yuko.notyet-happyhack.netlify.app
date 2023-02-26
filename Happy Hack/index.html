@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Hack</title>
+    <link rel="stylesheet" href="particles.css">
+    <link rel="stylesheet" href="jquery.bxslider.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.bgswitcher.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="jquery.bxslider.min.js"></script>
+    <script src="main.js"></script>
+
+</head>
+<body>
+  <header class="bg-swicher">
+  <div>
+    <img src="images/logo.png" alt="">
+    <p>We are Web Designers.</p>
+  </div>
+</header>
+ <section class="introduction" id="introduction">
+    <h2 class="heading">Introduction</h2>
+    <div class="introduction-box">
+      <div class="introduction-001">
+        <img src="images/introduction_001.jpg" alt="" class="introduction-image introduction-image-001">
+        <div class="introduction-register">
+        <p class="introduction-register-001">Happy Hackはいまをときめく若者がITを活用したものづくりに取り組める環境を提供しています。<br>
+          特にWebデザイン領域のプログラミングを学習している生徒が一番積極的に活動しています。<br>
+          誰でも最初は初心者。それを一番知っている我々がプログラミングへの第一歩を踏み出すお手伝いをさせていただきます。</p>
+          <a href="#introduction" class="introduction-button introduction-button-001">会員登録</a>
+        </div>
+      </div>
+      <div class="introduction-002">
+        <div class="introduction-register">
+        <p class="introduction-register-002">Happy Hackでは「楽しさ」と「真剣さ」をモットーにプログラミングを学びます。コースは全部で7つ準備をしています。<br>
+          WebデザインからWebサービス、3DゲームやiPhoneアプリまで幅広くお楽しみいただけます。<br>
+          自分の想いをカタチにして発信することをぜひこの場で体験してみてください。世界が変わって見えるかもしれません。</p>
+        <a href="#introduction" class="introduction-button introduction-button-002">会員登録</a>
+        </div>
+        <img src="images/introduction_002.jpg" alt="" class="introduction-image introduction-image-002">
+      </div>
+    </div>
+ </section>
+ <section class="courses" id="courses">
+  <div class="wrap">
+  <div id="particles-js"></div>
+  </div>
+  <div class="courses-contents">
+    <h2 class="heading">Courses</h2>
+    <div class="courses-boxes">
+     <div class="courses-box">
+      <img src="images/html.png" alt="">
+      <h3 id="courses-box-h3">HTMLコース</h3>
+      <a href="#courses" id="courses-box-button">このコースを受ける</a>
+     </div>
+     <div class="courses-box">
+      <img src="images/css.png" alt="">
+      <h3 id="courses-box-h3">CSSコース</h3>
+      <a href="#courses" id="courses-box-button">このコースを受ける</a>
+     </div>
+     <div class="courses-box">
+      <img src="images/unity.png" alt="">
+      <h3 id="courses-box-h3">Unityコース</h3>
+      <a href="#courses" id="courses-box-button">このコースを受ける</a>
+     </div>
+     <div class="courses-box">
+      <img src="images/ruby.png" alt="">
+      <h3 id="courses-box-h3">Rubyコース</h3>
+      <a href="#courses" id="courses-box-button">このコースを受ける</a>
+     </div>
+    </div>
+    <div class="courses-box-newline">
+      <div class="courses-box">
+        <img src="images/js.png" alt="">
+        <h3 id="courses-box-h3">JavaScriptコース</h3>
+        <a href="#courses" id="courses-box-button">このコースを受ける</a>
+       </div>
+       <div class="courses-box">
+        <img src="images/swift.png" alt="">
+        <h3 id="courses-box-h3">Swiftコース</h3>
+        <a href="#courses" id="courses-box-button">このコースを受ける</a>
+       </div>
+       <div class="courses-box">
+        <img src="images/go.png" alt="">
+        <h3 id="courses-box-h3">Goコース</h3>
+        <a href="#courses" id="courses-box-button">このコースを受ける</a>
+       </div>
+    </div> 
+
+    </div>
+ </section>
+ <section class="images" id="images">
+  <h2 class="heading">Images</h2>
+  <div class="viewport">
+  <ul class="slider">
+    <li><img src="images/background1.jpg" alt="" width="260"></li>
+    <li><img src="images/background2.jpg" alt="" width="260"></li>
+    <li><img src="images/background3.jpg" alt="" width="260"></li>
+    <li><img src="images/background4.jpg" alt="" width="260"></li>
+    <li><img src="images/background5.jpg" alt="" width="260"></li>
+  </ul>
+  </div>
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+      minSlides:"4",
+      maxSlides:"4",
+      });
+    });
+  </script>
+  </section>
+
+ 
+</body>
+</html>
+
